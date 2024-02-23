@@ -348,6 +348,7 @@ body {
  }
  
  .portfolio {
+	box-shadow: зі значенням 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 	
  }
  
@@ -366,7 +367,6 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 48px 24px;
-	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
  }
  
  .portfolio-item {
@@ -432,9 +432,14 @@ body {
 	background-color: #2e2f42;
 	padding: 100px 0;
  }
+
+ .foooter_logos{
+ margin-right: 120px;
+ }
  .footer-logo {
 	display: inline-block;
 	margin-bottom: 16px;
+	
  }
  
  .footer-description {
@@ -457,7 +462,9 @@ body {
  }
  .footer-container-flex{
 	 display: flex;
-	 gap: 120px;
+	 align-items: baseline;
+	
+	 
  }
  
  .footer-block-item{
