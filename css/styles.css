@@ -383,12 +383,11 @@ body {
  position: relative;
  overflow: hidden;
  }
- 
- 
- 
+ .portfolio-item:hover{
+ box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
+}
  
  .portfolio-item:hover .portfolio-image-description{
-	box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 	 transform: translateY(0);
  }
  
@@ -489,6 +488,7 @@ justify-content: center;
 		.footer-block-svg{
 		 fill: #F4F4FD;
 		}
-		.footer-block-link:hover {
+		.footer-block-link:hover,
+		.footer-block-link:focus{
 		 background-color: #31D0AA;
 		}
